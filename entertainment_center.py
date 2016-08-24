@@ -14,7 +14,7 @@ finding_dory = media.Movie("Finding Dory",
 suicide_squad = media.Movie("Suicide Squad",
 	"Based on the DC Comic, the government gives a team of supervillains a chance at redemption.",
 	"http://static.srcdn.com/wp-content/uploads/suicide-squad-movie-2016-poster.jpeg",
-	"https://www.cultofwhatever.com/wp-content/uploads/2016/08/suicide-squad-poster.jpg")
+	"https://www.youtube.com/watch?v=YUlzdmzs16s")
 
 jason_bourne = media.Movie("Jason Bourne",
 	"The CIA's most dangerous former operative is drawn out of hiding to uncover more explosive truths about his past.",
@@ -30,6 +30,7 @@ star_trek_beyond = media.Movie("Star Trek Beyond",
 	"The USS Enterprise crew explores the furthest reaches of uncharted space", 
 	"https://upload.wikimedia.org/wikipedia/en/b/ba/Star_Trek_Beyond_poster.jpg",
 	"https://www.youtube.com/watch?v=bzD8H6o1awQ")
-
+#Used to test the show_trailer function
+#suicide_squad.show_trailer()
 movies= [rogue_one, finding_dory, suicide_squad, jason_bourne, happy_gilmore, star_trek_beyond]
 fresh_tomatoes.open_movies_page(movies)
