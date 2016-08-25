@@ -29,9 +29,7 @@ happy_gilmore = media.Movie("Happy Gilmore",
 star_trek_beyond = media.Movie("Star Trek Beyond", 
 	"The USS Enterprise crew explores the furthest reaches of uncharted space", 
 	"https://upload.wikimedia.org/wikipedia/en/b/ba/Star_Trek_Beyond_poster.jpg",
-	"https://www.youtube.com/watch?v=bzD8H6o1awQ")
-#Used to test the show_trailer function
-#suicide_squad.show_trailer()
+
 #Variable to store my list of movies for input of open_movie_page
 movies= [rogue_one, finding_dory, suicide_squad, jason_bourne, happy_gilmore, star_trek_beyond]
 #Takes list of movies and create HTML page and open the browser
