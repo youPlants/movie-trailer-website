@@ -3,7 +3,7 @@ import fresh_tomatoes
 
 rogue_one = media.Movie("Rogue One: A Star Wars Story", 
 	"A group of unlikely heroes band together on a mission to steal the plans to the Death Star",
-	 "https://upload.wikimedia.org/wikipedia/en/d/dd/Rogue_One_cast_revealed.jpg",
+	 "http://ia.media-imdb.com/images/M/MV5BMjQyMzI2OTA3OF5BMl5BanBnXkFtZTgwNDg5NjQ0OTE@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
 	  "https://www.youtube.com/watch?v=frdj1zb9sMY")
 
 finding_dory = media.Movie("Finding Dory",
@@ -32,5 +32,7 @@ star_trek_beyond = media.Movie("Star Trek Beyond",
 	"https://www.youtube.com/watch?v=bzD8H6o1awQ")
 #Used to test the show_trailer function
 #suicide_squad.show_trailer()
+#Variable to store my list of movies for input of open_movie_page
 movies= [rogue_one, finding_dory, suicide_squad, jason_bourne, happy_gilmore, star_trek_beyond]
+#Takes list of movies and create HTML page and open the browser
 fresh_tomatoes.open_movies_page(movies)
